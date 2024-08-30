@@ -1,0 +1,37 @@
+/* Footer.css */
+
+/* Ensure the footer sticks to the bottom of the page */
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0; /* Ensure there's enough padding */
+  }
+  
+  /* Footer text styling */
+  .footer p {
+    margin-bottom: 0;
+    color: #333;
+  }
+  
+  /* Social icons container */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Spacing between icons */
+  }
+  
+  /* Individual social icon styling */
+  .social-icon {
+    color: #333;
+    font-size: 24px; /* Adjust icon size */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #007bff; /* Change icon color on hover */
+  }
+  
